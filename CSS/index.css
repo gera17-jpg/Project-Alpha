@@ -1,0 +1,45 @@
+html{
+    border:red 2px dotted;
+    margin:0;
+    padding:0;
+}
+nav{
+    border: 2px dotted green;
+    background-color: black;
+    height:40px;
+    width:100%;
+    padding: 0;
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    
+    width:100px;
+    align-self: center;
+    padding-left: 10px;
+}
+ul{
+    width: 50%;
+    display: flex;
+    justify-content:space-between; 
+    padding-right: 10px;
+}
+#theme{
+    background-color:green;
+    color: #000;
+    font-size: 15px;
+    border: none;
+}
+#theme:hover{
+    cursor: pointer;
+}
+li{
+    list-style-type:none;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
